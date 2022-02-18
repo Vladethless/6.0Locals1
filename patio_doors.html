@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>[company] Alpha - Booking and Reservation Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+   <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.min.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/sandybrown.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFC5925" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="page_loader"></div>
+
+    <!-- Option Panel -->
+    <div class="option-panel option-panel-collased">
+        <h2>Change Color</h2>
+        <div class="color-plate sandybrown-plate" data-color="sandybrown"></div>
+        <div class="color-plate blue-light-2-plate" data-color="blue-light-2"></div>
+        <div class="color-plate yellow-plate" data-color="yellow"></div>
+        <div class="color-plate red-plate" data-color="red"></div>
+        <div class="color-plate green-light-plate" data-color="green-light"></div>
+        <div class="color-plate purple-plate" data-color="purple"></div>
+        <div class="color-plate blue-plate" data-color="blue"></div>
+        <div class="color-plate peru-plate" data-color="peru"></div>
+        <div class="color-plate green-plate" data-color="green"></div>
+        <div class="color-plate blue-light-plate" data-color="blue-light"></div>
+        <div class="color-plate green-light-2-plate" data-color="green-light-2"></div>
+        <div class="color-plate royalblue-plate" data-color="royalblue"></div>
+        <div class="setting-button">
+            <i class="fa fa-gear"></i>
+        </div>
+    </div>
+    <!-- /Option Panel -->
+
+    <!-- Top header start -->
+    <header class="top-header hidden-xs" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                    <div class="list-inline">
+                        <a href="tel:+55-4XX-634-7071"><i class="fa fa-phone"></i>Need Support? +55-4XX-634-7071</a>
+                        <a><i class="fa fa-map-marker"></i>44 New Design Street,</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- Top header end -->
+
+ <!-- Main header start -->
+<header class="main-header main-header-4">
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" id="drawer">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="logo">
+                    <img src="img/logos/logo.png" alt="logo">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="navbar-collapse collapse" role="navigation" aria-expanded="true" id="app-navigation">
+                <ul class="nav navbar-nav ml-auto">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" data-submenu="">
+                            Roofing<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="metal_roofing.html">Metal roofing </a></li>
+                            <li><a href="asphalt_shingles_roofing.html">Asphalt shingles roofing</a></li>
+                            <li><a href="copper_roofing.html">Copper roofing</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" data-submenu="">
+                            Siding<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="james_hardie_siding.html">James Hardie Siding</a></li>
+                            <li><a href="stucco_removal.html">Stucco removal</a></li>
+                            <li><a href="wood_shake_siding.html">Wood shake siding</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" data-submenu="">
+                            Windows<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fiberglass_windows.html">Fiberglass windows</a></li>
+                            <li><a href="stucco_removal.html">Patio doors</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="header-search animated fadeInDown">
+            <form class="form-inline">
+                <input type="text" class="form-control" id="searchKey" placeholder="Search...">
+                <div class="search-btns">
+                    <button type="submit" class="btn btn-default">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</header>
+<!-- Main header end -->
+
+<!-- Sidenav start -->
+<nav id="sidebar" class="nav-sidebar sidebar-heading-section">
+    <!-- Close btn-->
+    <div id="dismiss">
+        <i class="fa fa-close"></i>
+    </div>
+    <div class="sidebar-inner">
+        <div class="sidebar-logo">
+            <img src="img/logos/logo.png" alt="sidebarlogo">
+        </div>
+        <div class="sidebar-navigation">
+            <ul class="menu-list">
+                <li><a href="index.html" class="active pt0">Home</a></li>
+                <li><a href="about_us.html" class="active pt0">About us</a></li>
+                <li><a href="#">Roofing<em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li><a href="metal_roofing.html">Metal roofing </a></li>
+                        <li><a href="asphalt_shingles_roofing.html">Asphalt shingles roofing</a></li>
+                        <li><a href="copper_roofing.html">Copper roofing</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Siding<em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li><a href="james_hardie_siding.html">James Hardie Siding</a></li>
+                        <li><a href="stucco_removal.html">Stucco removal</a></li>
+                        <li><a href="wood_shake_siding.html">Wood shake siding</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Windows<em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li><a href="fiberglass_windows.html">Fiberglass windows</a></li>
+                        <li><a href="stucco_removal.html">Patio doors</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <div class="get-in-touch">
+            <h3 class="heading">Get in Touch</h3>
+            <div class="sidebar-contact-info">
+                <div class="icon">
+                    <i class="fa fa-phone"></i>
+                </div>
+                <div class="body-info">
+                    <a href="tel:0477-0477-8556-552">0477 8556 552</a>
+                </div>
+            </div>
+            <div class="sidebar-contact-info">
+                <div class="icon">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <div class="body-info">
+                    <a href="#">info@themevessel.com</a>
+                </div>
+            </div>
+            <div class="sidebar-contact-info mb-0">
+                <div class="icon">
+                    <i class="fa fa-fax"></i>
+                </div>
+                <div class="body-info">
+                    <a href="tel:0477-0477-8556-552">0266 8556 787</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+<!-- Sidenav end -->
+
+    <!-- Sub banner start -->
+    <div class="sub-banner overview-bgi">
+        <div class="container">
+            <div class="breadcrumb-area">
+                <h1>Patio doors</h1>
+                <ul class="breadcrumbs">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Patio doors</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Sub Banner end -->
+
+    <!-- Rooms details page start -->
+    <div class="content-area-15 rooms-details-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="detail-slider-full mb-40">
+                        <!-- sidebar start -->
+                        <div class="rooms-detail-slider">
+                            <!--  Rooms detail slider start -->
+                            <div class="rooms-detail-slider rds simple-slider">
+                                <div id="carousel-custom" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-outer">
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img src="img/room/big-img-4.png" class="thumb-preview"
+                                                    alt="Chevrolet Impala">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Rooms detail slider end -->
+                        </div>
+                        <!-- sidebar end -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <!-- Rooms details section start -->
+                    <div class="rooms-detail-slider ">
+
+                        <!-- Search area box 2 start -->
+                        <div class="sidebar-widget search-area-box-2 hidden-lg hidden-md sw-2 sab-3 clearfix">
+                            <div class="search-contents">
+                                <form method="GET">
+                                    <div class="row">
+                                        <div class="search-your-details">
+                                            <div class="col-md-12 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="btn-default datepicker"
+                                                        placeholder="Check In">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="btn-default datepicker"
+                                                        placeholder="Check Out">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <select class="selectpicker search-fields form-control-2"
+                                                        name="room">
+                                                        <option>Room</option>
+                                                        <option>Single Room</option>
+                                                        <option>Double Room</option>
+                                                        <option>Deluxe Room</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <select class="selectpicker search-fields form-control-2"
+                                                        name="beds">
+                                                        <option>Beds</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <select class="selectpicker search-fields form-control-2"
+                                                        name="adults">
+                                                        <option>Adult</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <select class="selectpicker search-fields form-control-2"
+                                                        name="children">
+                                                        <option>Child</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <div class="form-group mb-0">
+                                                    <button class="btn-md btn-theme btn-4 btn-7 btn-block">Book
+                                                        Now</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Search area box 2 end -->
+                        <div class="mb-40">
+                            <h1 class="heading">heading 1</h1>
+                            <p>Lorem ipsum dolor sit amet, conser a adipisicing elit, sed do eiusmod tempor on
+                                incididunt ut labore et dolore magna zaras aliqua. Ut enim ad minim veniam, quis no at
+                                with strud exercitation ullamco laboris nisi dolorem ipsum quia dolor sit dicta.Ut enim
+                                ad minim veniam, quis no at with strud exercitation ullamco laboris nisi dolorem ipsum
+                                quia dolor sit dicta.Ut enim ad minim veniam, quis no at with strud exercitation ullamco
+                                laboris nisi dolorem ipsum quia dolor sit dicta.Ut enim ad minim veniam, quis no at with
+                                strud exercitation ullamco laboris nisi dolorem ipsum quia dolor </p>
+                        </div>
+                        <div class="mb-40">
+                            <h2 class="heading">heading 2</h2>
+                            <p>Lorem ipsum dolor sit amet, conser a adipisicing elit, sed do eiusmod tempor on
+                                incididunt ut labore et dolore magna zaras aliqua. Ut enim ad minim veniam, quis no at
+                                with strud exercitation ullamco laboris nisi dolorem ipsum quia dolor sit dicta.Ut enim
+                                ad minim veniam, quis no at with strud exercitation ullamco laboris nisi dolorem ipsum
+                                quia dolor sit dicta.Ut enim ad minim veniam, quis no at with strud exercitation ullamco
+                                laboris nisi dolorem ipsum quia dolor sit dicta.Ut enim ad minim veniam, quis no at with
+                                strud exercitation ullamco laboris nisi dolorem ipsum quia dolor </p>
+                        </div>
+                        <div class="advantages mb-50">
+                            <h3>Advantages</h3>
+                            <ul>
+                                <li><span>1</span>Lorem ipsum dolor sit amet, conser adipiscing elit. Donec luctus
+                                    tincidunt aliquam. Aliquam</li>
+                                <li><span>2</span>Lorem ipsum dolor sit amet, conser adipiscing elit. Donec luctus
+                                    tincidunt aliquam.</li>
+                                <li><span>3</span>Lorem ipsum dolor sit amet, conser adipiscing elit. Donec luctus
+                                    tincidunt</li>
+                                <li><span>4</span>Lorem ipsum dolor sit amet, conser adipiscing elit. Donec luctus
+                                    tincidunt aliquam.</li>
+                                <li><span>3</span>Lorem ipsum dolor sit amet, conser adipiscing elit.</li>
+                                <li><span>4</span>Lorem ipsum dolor sit amet, conser adipiscing elit. Donec luctus</li>
+                            </ul>
+                        </div>
+                        <div class="mb-40">
+                            <h3 class="heading">heading 3</h3>
+                            <p>Lorem ipsum dolor sit amet, conser a adipisicing elit, sed do eiusmod tempor on
+                                incididunt ut labore et dolore magna zaras aliqua. Ut enim ad minim veniam, quis no at
+                                with strud exercitation ullamco laboris nisi dolorem ipsum quia dolor sit dicta.Ut enim
+                                ad minim veniam, quis no at with strud exercitation ullamco laboris nisi dolorem ipsum
+                                quia dolor sit dicta.Ut enim ad minim veniam, quis no at with strud exercitation ullamco
+                                laboris nisi dolorem ipsum quia dolor sit dicta.Ut enim ad minim veniam, quis no at with
+                                strud exercitation ullamco laboris nisi dolorem ipsum quia dolor </p>
+                        </div>
+                        <!-- Advantages start -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Rooms details page end -->
+
+    <!-- Intro section start -->
+    <div class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <div class="intro-text">
+                        <h3>Become An Instructor</h3>
+                        <p>Join thousand of instructors and earn money hassle free</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <a href="contact.html" class="button btn-3">Contact now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- intro section end -->
+
+   <!-- Footer start -->
+<footer class="main-footer clearfix">
+    <div class="container">
+        <!-- Footer info-->
+        <div class="footer-info">
+            <div class="row">
+                <!-- About us -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item">
+                        <div class="main-title-2">
+                            <h1>Contact Us</h1>
+                        </div>
+                        <ul class="personal-info">
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                Address: 44 New Design Street,
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                Phone: <a href="tel:+55-417-634-7071">+0477 85X6 552</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                    <div class="footer-item">
+                        <div class="main-title-2">
+                            <h1>Siding</h1>
+                        </div>
+                        <ul class="links">
+                            <li>
+                                <a href="james_hardie_siding.html">James Hardie Siding</a>
+                            </li>
+                            <li>
+                                <a href="stucco_removal.html">Stucco removal</a>
+                            </li>
+                            <li>
+                                <a href="wood_shake_siding.html">Wood shake siding</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                    <div class="footer-item">
+                        <div class="main-title-2">
+                            <h1>Roofing</h1>
+                        </div>
+                        <ul class="links">
+                            <li>
+                                <a href="metal_roofing.html">Metal roofing </a>
+                            </li>
+                            <li>
+                                <a href="copper_roofing.html">Copper roofing</a>
+                            </li>
+                            <li>
+                                <a href="asphalt_shingles_roofing.html">Asphalt shingles roofing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                    <div class="footer-item">
+                        <div class="main-title-2">
+                            <h1>Windows</h1>
+                        </div>
+                        <ul class="links">
+                            <li>
+                                <a href="fiberglass_windows.html">Fiberglass windows</a>
+                            </li>
+                            <li>
+                                <a href="patio_doors.html">Patio doors</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item newsletter">
+                        <div class="main-title-2">
+                            <h1>Newsletter</h1>
+                        </div>
+                        <div class="newsletter-inner">
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <form class="form-inline" action="#" method="GET">
+                                <input type="text" class="form-control" id="inlineFormInputName4" placeholder="Your Email">
+                                <button type="submit" class="btn btn-small"><i class="fa fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+    <!-- Copy right start -->
+    <div class="copy-right">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <p> &copy; 2021 <a href="http://themevessel.com/" target="_blank">Theme Vessel</a>. All Rights
+                        Reserved.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Copy end right-->
+
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-submenu.js"></script>
+    <script src="js/jquery.mb.YTPlayer.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/jquery.filterizr.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Custom javascript -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBL8kr92JsqkBl9Px8s8mfVtgs5wIMV_MM"></script>
+    <script>
+        function LoadMap(propertes) {
+            var defaultLat = 40.7110411;
+            var defaultLng = -74.0110326;
+            var mapOptions = {
+                center: new google.maps.LatLng(defaultLat, defaultLng),
+                zoom: 15,
+                scrollwheel: false,
+                styles: [
+                    {
+                        featureType: "administrative",
+                        elementType: "labels",
+                        stylers: [
+                            { visibility: "off" }
+                        ]
+                    },
+                    {
+                        featureType: "water",
+                        elementType: "labels",
+                        stylers: [
+                            { visibility: "off" }
+                        ]
+                    },
+                    {
+                        featureType: 'poi.business',
+                        stylers: [{ visibility: 'off' }]
+                    },
+                    {
+                        featureType: 'transit',
+                        elementType: 'labels.icon',
+                        stylers: [{ visibility: 'off' }]
+                    },
+                ]
+            };
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            var infoWindow = new google.maps.InfoWindow();
+            var myLatlng = new google.maps.LatLng(40.7110411, -74.0110326);
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map
+            });
+            (function (marker) {
+                google.maps.event.addListener(marker, "click", function (e) {
+                    infoWindow.setContent("" +
+                        "<div class='map-edu contact-map-content'>" +
+                        "<div class='map-content'>" +
+                        "<p class='address'>123 Kathal St. Tampa City, </p>" +
+                        "<ul class='map-edu-list'> " +
+                        "<li><i class='fa fa-phone'></i>  +0477 85X6 552</li> " +
+                        "<li><i class='fa fa-envelope'></i>  info@themevessel.com</li> " +
+                        "<li><a href='index.html'><i class='fa fa-globe'></i>  http://http://themevessel.com</li></a> " +
+                        "</ul>" +
+                        "</div>" +
+                        "</div>");
+                    infoWindow.open(map, marker);
+                });
+            })(marker);
+        }
+        LoadMap();
+    </script>
+
+</body>
+
+</html>
