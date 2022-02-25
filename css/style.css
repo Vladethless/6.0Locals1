@@ -68,11 +68,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
 }
 
-p{
+/* p{
     color: #5a5959;
     line-height: 25px;
     font-size: 15px;
-}
+} */
 
 ul{
     padding: 0;
@@ -1164,10 +1164,12 @@ b, strong {
     color: #fff;
 }*/
 
-.banner .banner-slider-inner h1 {
+.banner .banner-slider-inner .like_h1 {
     color: #fff;
     margin: 0 0 20px;
-    font-size: 60px;
+    font-size: 60px !important;
+    font-weight: 700;
+    font-family: 'Cormorant', serif;
     font-weight: 700;
 }
 
@@ -1186,7 +1188,7 @@ b, strong {
     height: 100vh;
 }
 
-.banner .banner-slider-inner p {
+.banner .banner-slider-inner .like_p {
     margin-bottom: 30px;
     color: #fff;
     line-height: 1.6;
@@ -1569,7 +1571,7 @@ span.flatpickr-weekday {
     margin-bottom: 50px;
 }
 
-.main-title h1 {
+.main-title h2 {
     font-weight: 700;
     margin: 0 0 15px;
     font-size: 45px;
@@ -1598,9 +1600,10 @@ span.flatpickr-weekday {
     margin-bottom: 30px;
 }
 
-.footer-info .main-title-2 h1 {
+.footer-info .main-title-2 h4 {
     font-size: 27px;
     margin-bottom: 30px;
+    color: white;
 }
 
 .main-title-2 h1 {
@@ -2495,14 +2498,15 @@ footer ul {
     margin-bottom: 30px;
 }
 
-.counter-box h1 {
+.counter-box .like_h1 {
     font-size: 35px;
     font-weight: 700;
     margin: 0 0 15px;
     font-family: 'Mulish', sans-serif;
+    color: white
 }
 
-.counter-box h5 {
+.counter-box .like_h5 {
     font-size: 18px;
     color: #fff;
     font-weight: 400;
@@ -2604,8 +2608,9 @@ footer ul {
     text-align: center;
 }
 
-.staff-box-1 .content h4 {
+.staff-box-1 .content h3 {
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .staff-box-1 .content h4 a{
@@ -5589,10 +5594,12 @@ blockquote {
     background: -webkit-linear-gradient(#f4a460, #da4b78);
 }
 
-.testimonials-1 h4 {
+.testimonials-1 .name {
     font-weight: 700;
     margin: 0;
     font-size: 20px;
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
 }
 
 .testimonials-1 .btn-slider-2 .carousel-indicators {
@@ -5664,9 +5671,11 @@ blockquote {
     margin-bottom: 0;
 }
 
-.testimonials-2 h3 {
-    font-size: 22px;
+.testimonials-2 .like_h3 {
+    font-size: 30px;
     margin: 0 0 15px;
+    font-family: 'Cormorant', serif;
+    color: #212121;
 }
 
 .testimonials-2 .content2 {
