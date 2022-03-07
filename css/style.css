@@ -172,7 +172,7 @@ b, strong {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #202040;
 }
 
 /** SOCIAL COLOR AREA START **/
@@ -1051,8 +1051,7 @@ b, strong {
 }
 
 .banner .item img {
-    height: 100%;
-    width: 100%;
+
 }
 
 .banner .max-area{
@@ -1569,12 +1568,16 @@ span.flatpickr-weekday {
 .main-title {
     text-align: center;
     margin-bottom: 50px;
+    
 }
 
 .main-title h2 {
     font-weight: 700;
     margin: 0 0 15px;
     font-size: 45px;
+}
+.white{
+color: #FFF;
 }
 
 .main-title-3 {
@@ -1592,7 +1595,7 @@ span.flatpickr-weekday {
 .main-title p{
     font-weight: 300;
     font-size: 19px;
-    color:#5a5959;
+    color:#9a9999;
     margin: 0;
 }
 
@@ -2481,7 +2484,7 @@ footer ul {
 
 /** COUNTERS AREA START **/
 .counters {
-    background: url(../img/img-1.png);
+    background: url(../img/numbers.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
@@ -3077,7 +3080,7 @@ footer ul {
 /** OUR FACILTIES SECTION 2 AREA START **/
 .our-facilties-section-2{
     padding: 100px 0 70px;
-    background: url(../img/bg-img.png);
+    background-color:#202040;
     z-index: 0;
     background-position: center center;
     background-repeat: no-repeat;
@@ -5609,7 +5612,7 @@ blockquote {
 /** TESTIMONIALS 2 **/
 .testimonials-2 {
     padding: 100px 0 105px;
-    background: url(../img/img-2.png);
+    background: url(../img/testimonials.jpg);
     z-index: 0;
     background-position: center center;
     background-repeat: no-repeat;
