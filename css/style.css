@@ -73,6 +73,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     line-height: 25px;
     font-size: 15px;
 } */
+p{
+    font-size: 16px;
+}
 
 ul{
     padding: 0;
@@ -650,7 +653,7 @@ b, strong {
 .top-header .list-inline a {
     color: #fff;
     margin-right: 15px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -685,7 +688,7 @@ b, strong {
 .top-header .sign-in, .top-header .sign-in:hover {
     line-height: 36px;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     padding: 6px 12px;
     border-radius: 3px;
 }
@@ -734,7 +737,7 @@ b, strong {
     position: relative;
     display: block;
     padding: 35px 17px 35px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.5px;
     background: transparent;
@@ -812,7 +815,7 @@ b, strong {
     border-radius: 0px;
     border: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     padding-right: 20px;
@@ -831,7 +834,7 @@ b, strong {
     border: none;
     background: #000;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     padding-right: 20px;
@@ -878,7 +881,7 @@ b, strong {
     height: 34px;
     margin: 0;
     padding: 0 35px 0 20px;
-    font-size: 14px;
+    font-size: 16px;
     border: none;
 }
 
@@ -965,7 +968,7 @@ b, strong {
     font-weight: normal;
     line-height: 1.42857143;
     color: #5a5959;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     white-space: nowrap;
     background: #fbfbfb;
@@ -1536,7 +1539,7 @@ b, strong {
 }
 
 .flatpickr-weekdays {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .flatpickr-day {
@@ -1641,7 +1644,7 @@ color: #FFF;
 .rating li {
     list-style: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .ratings {
@@ -3211,6 +3214,9 @@ footer ul {
 .services-box-2 {
     margin:0 10px 50px 0;
 }
+.services-box-2 i img{
+    width: inherit;
+}
 
 .services-box-2 i {
     width: 65px;
@@ -3434,7 +3440,7 @@ footer ul {
 
 .hotel-box .detail p {
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .hotel-box .detail .location {
@@ -4208,7 +4214,7 @@ footer ul {
     padding: 1px 20px;
     z-index: 1;
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
     color: #616161;
     text-transform: capitalize;
     background: #fff;
@@ -4323,7 +4329,7 @@ footer ul {
 }
 
 .login-section .form-section .checkbox {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .login-section .form-section .form-check {
@@ -4371,7 +4377,7 @@ footer ul {
     font-weight: 500;
     color: #f3f3f3;
     line-height: 15px;
-    font-size: 14px;
+    font-size: 16px;
     content: "\2713";
 }
 
@@ -5300,7 +5306,7 @@ blockquote {
 
 .comment-rating span{
     color: #5a5959;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .comments ul {
@@ -5563,7 +5569,7 @@ blockquote {
 .sub-banner .breadcrumbs .active:before {
     content: "\f105";
     font-family: "FontAwesome";
-    font-size: 14px;
+    font-size: 16px;
     margin-right: 5px;
     font-weight: 700;
 }
@@ -6133,7 +6139,12 @@ blockquote {
     font-size: 15px;
     font-weight: 400;
 }
-
+.advantages span {
+    color: #F4A460;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
 .advantages ul {
     margin: 0;
     padding: 0;
@@ -6441,7 +6452,7 @@ blockquote {
     padding: 0 15px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
@@ -7413,14 +7424,14 @@ span.round-tab:hover i {
 }
 
 .sidebar-heading-section .sidebar-nav-list li {
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 15px;
     margin-bottom: 10px;
 }
 
 .sidebar-heading-section .sidebar-nav-list li a{
     color: #fff !important;
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 30px;
 }
 
@@ -8180,7 +8191,7 @@ span.round-tab:hover i {
     }
 
     .setting-button {
-        font-size: 14px;
+        font-size: 16px;
         width: 36px;
         height: 36px;
         line-height: 38px;
@@ -8700,7 +8711,7 @@ span.round-tab:hover i {
     }
 
     .panel-box .nav-tabs>li>a {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .panel-box .nav>li>a {
@@ -8911,7 +8922,7 @@ span.round-tab:hover i {
     }
 
     .properties-box .detail .location a {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .about-box {

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 
-   <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="noindex, nofollow" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
@@ -66,51 +66,93 @@
     </header>
     <!-- Top header end -->
 
- <!-- Main header start -->
-<header class="main-header main-header-4">
-    <div class="container">
-        <nav class="navbar navbar-default">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" id="drawer">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="index.html" class="logo">
-                    <img src="img/logos/logo.png" alt="logo">
-                </a>
+    <!-- Main header start -->
+    <header class="main-header main-header-4">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" id="drawer">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="logo">
+                        <img src="img/logos/logo.png" alt="logo">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar-collapse collapse" role="navigation" aria-expanded="true" id="app-navigation">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About us</a></li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" data-submenu="">
+                                Roofing<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="metal_roofing.html">Metal roofing </a></li>
+                                <li><a href="asphalt_shingles_roofing.html">Asphalt shingles roofing</a></li>
+                                <li><a href="copper_roofing.html">Copper roofing</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" data-submenu="">
+                                Siding<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="james_hardie_siding.html">James Hardie Siding</a></li>
+                                <li><a href="stucco_removal.html">Stucco removal</a></li>
+                                <li><a href="wood_shake_siding.html">Wood shake siding</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" data-submenu="">
+                                Windows<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="fiberglass_windows.html">Fiberglass windows</a></li>
+                                <li><a href="patio_doors.html">Patio doors</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Main header end -->
+
+    <!-- Sidenav start -->
+    <nav id="sidebar" class="nav-sidebar sidebar-heading-section">
+        <!-- Close btn-->
+        <div id="dismiss">
+            <i class="fa fa-close"></i>
+        </div>
+        <div class="sidebar-inner">
+            <div class="sidebar-logo">
+                <img src="img/logos/logo.png" alt="sidebarlogo">
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="navbar-collapse collapse" role="navigation" aria-expanded="true" id="app-navigation">
-                <ul class="nav navbar-nav ml-auto">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about_us.html">About us</a></li>
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" data-submenu="">
-                            Roofing<span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
+            <div class="sidebar-navigation">
+                <ul class="menu-list">
+                    <li><a href="index.html" class="active pt0">Home</a></li>
+                    <li><a href="about_us.html" class="active pt0">About us</a></li>
+                    <li><a href="#">Roofing<em class="fa fa-chevron-down"></em></a>
+                        <ul>
                             <li><a href="metal_roofing.html">Metal roofing </a></li>
                             <li><a href="asphalt_shingles_roofing.html">Asphalt shingles roofing</a></li>
                             <li><a href="copper_roofing.html">Copper roofing</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" data-submenu="">
-                            Siding<span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
+                    <li><a href="#">Siding<em class="fa fa-chevron-down"></em></a>
+                        <ul>
                             <li><a href="james_hardie_siding.html">James Hardie Siding</a></li>
                             <li><a href="stucco_removal.html">Stucco removal</a></li>
                             <li><a href="wood_shake_siding.html">Wood shake siding</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" data-submenu="">
-                            Windows<span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
+                    <li><a href="#">Windows<em class="fa fa-chevron-down"></em></a>
+                        <ul>
                             <li><a href="fiberglass_windows.html">Fiberglass windows</a></li>
                             <li><a href="patio_doors.html">Patio doors</a></li>
                         </ul>
@@ -118,72 +160,30 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-    </div>
-</header>
-<!-- Main header end -->
+            <div class="get-in-touch">
+                <h3 class="heading">Get in Touch</h3>
+                <div class="sidebar-contact-info">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="body-info">
+                        <a href="tel:0477-0477-8556-552">0477 8556 552</a>
+                    </div>
+                </div>
+                <div class="sidebar-contact-info">
+                    <div class="icon">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="body-info">
+                        <a href="#">info@themevessel.com</a>
+                    </div>
+                </div>
 
-<!-- Sidenav start -->
-<nav id="sidebar" class="nav-sidebar sidebar-heading-section">
-    <!-- Close btn-->
-    <div id="dismiss">
-        <i class="fa fa-close"></i>
-    </div>
-    <div class="sidebar-inner">
-        <div class="sidebar-logo">
-            <img src="img/logos/logo.png" alt="sidebarlogo">
-        </div>
-        <div class="sidebar-navigation">
-            <ul class="menu-list">
-                <li><a href="index.html" class="active pt0">Home</a></li>
-                <li><a href="about_us.html" class="active pt0">About us</a></li>
-                <li><a href="#">Roofing<em class="fa fa-chevron-down"></em></a>
-                    <ul>
-                        <li><a href="metal_roofing.html">Metal roofing </a></li>
-                        <li><a href="asphalt_shingles_roofing.html">Asphalt shingles roofing</a></li>
-                        <li><a href="copper_roofing.html">Copper roofing</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Siding<em class="fa fa-chevron-down"></em></a>
-                    <ul>
-                        <li><a href="james_hardie_siding.html">James Hardie Siding</a></li>
-                        <li><a href="stucco_removal.html">Stucco removal</a></li>
-                        <li><a href="wood_shake_siding.html">Wood shake siding</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Windows<em class="fa fa-chevron-down"></em></a>
-                    <ul>
-                        <li><a href="fiberglass_windows.html">Fiberglass windows</a></li>
-                        <li><a href="patio_doors.html">Patio doors</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="get-in-touch">
-            <h3 class="heading">Get in Touch</h3>
-            <div class="sidebar-contact-info">
-                <div class="icon">
-                    <i class="fa fa-phone"></i>
-                </div>
-                <div class="body-info">
-                    <a href="tel:0477-0477-8556-552">0477 8556 552</a>
-                </div>
-            </div>
-            <div class="sidebar-contact-info">
-                <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                </div>
-                <div class="body-info">
-                    <a href="#">info@themevessel.com</a>
-                </div>
             </div>
 
         </div>
-
-    </div>
-</nav>
-<!-- Sidenav end -->
+    </nav>
+    <!-- Sidenav end -->
 
     <!-- Sub banner start -->
     <div class="sub-banner overview-bgi">
@@ -234,39 +234,37 @@
 
 
                         <div class="mb-40">
-                            <h2 class="heading">heading 2</h2>
-                            <p>Lorem ipsum dolor sit amet, conser a adipisicing elit, sed do eiusmod tempor on
-                                incididunt ut labore et dolore magna zaras aliqua. Ut enim ad minim veniam, quis no at
-                                with strud exercitation ullamco laboris nisi dolorem ipsum quia dolor sit dicta.Ut enim
-                                ad minim veniam, quis no at with strud exercitation ullamco laboris nisi dolorem ipsum
-                                quia dolor sit dicta.Ut enim ad minim veniam, quis no at with strud exercitation ullamco
-                                laboris nisi dolorem ipsum quia dolor sit dicta.Ut enim ad minim veniam, quis no at with
-                                strud exercitation ullamco laboris nisi dolorem ipsum quia dolor </p>
+                            <p>Patios are the ideal place to spend a lovely day out, relax and bask in the sun on a
+                                sunny day, and unwind whenever you're stressed. It's no surprise that many homeowners
+                                want to either have patios in their houses right from the get-go or have them installed
+                                later on when they have the budget.</p>
+                            <p>However, with patio doors, you want a secure door that will also match your house's
+                                exterior. It can often be challenging to find the right door or a company offering
+                                installation and replacement services on terms you can agree to.
+                                You have nothing to worry about nevertheless.
+                            </p>
+                            <p>If you reside [location], [company name] has got you covered! Our professionals will come
+                                to your rescue and help with any problems and queries you might have with patio door
+                                installation and replacement.</p>
+                            <h2>What Does Our Service Entail?</h2>
                         </div>
                         <div class="advantages mb-50">
-                            <h3>Advantages</h3>
-                            <ul>
-                                <li><span>1</span>Lorem ipsum dolor sit amet, conser adipiscing elit. Donec luctus
-                                    tincidunt aliquam. Aliquam</li>
-                                <li><span>2</span>Lorem ipsum dolor sit amet, conser adipiscing elit. Donec luctus
-                                    tincidunt aliquam.</li>
-                                <li><span>3</span>Lorem ipsum dolor sit amet, conser adipiscing elit. Donec luctus
-                                    tincidunt</li>
-                                <li><span>4</span>Lorem ipsum dolor sit amet, conser adipiscing elit. Donec luctus
-                                    tincidunt aliquam.</li>
-                                <li><span>3</span>Lorem ipsum dolor sit amet, conser adipiscing elit.</li>
-                                <li><span>4</span>Lorem ipsum dolor sit amet, conser adipiscing elit. Donec luctus</li>
-                            </ul>
+                            <h3>Patio Door Installation</h3>
+                            <p>If you just had a patio built and are looking for affordable services to install your
+                                patio door, contact [company name] now! We will send our trained experts to your home
+                                who will professionally install your gates and ensure they are secure and pose no risks
+                                of breaking and creaking.</p>
+                            <h3>Patio Door Replacement</h3>
+                            <p>If you already have a patio door that is either too deteriorated, installed incorrectly,
+                                or does not match the aesthetic of your house, you probably want to get it replaced. In
+                                this case, our professionals will help you remove your old patio door and the
+                                installation of the new door that will replace it.</p>
                         </div>
                         <div class="mb-40">
-                            <h3 class="heading">heading 3</h3>
-                            <p>Lorem ipsum dolor sit amet, conser a adipisicing elit, sed do eiusmod tempor on
-                                incididunt ut labore et dolore magna zaras aliqua. Ut enim ad minim veniam, quis no at
-                                with strud exercitation ullamco laboris nisi dolorem ipsum quia dolor sit dicta.Ut enim
-                                ad minim veniam, quis no at with strud exercitation ullamco laboris nisi dolorem ipsum
-                                quia dolor sit dicta.Ut enim ad minim veniam, quis no at with strud exercitation ullamco
-                                laboris nisi dolorem ipsum quia dolor sit dicta.Ut enim ad minim veniam, quis no at with
-                                strud exercitation ullamco laboris nisi dolorem ipsum quia dolor </p>
+                            <h2 class="heading">Order the Best Services from [Company Name]</h2>
+                            <p>Having insecure or aesthetically unappealing doors can pose a security risk to your home
+                                and decrease its value. [Company Name] is here to provide installation and replacement
+                                services for your home, so contact them now and get your door installed!</p>
                         </div>
                         <!-- Advantages start -->
 
@@ -295,100 +293,103 @@
     </div>
     <!-- intro section end -->
 
-   <!-- Footer start -->
-<footer class="main-footer clearfix">
-    <div class="container">
-        <!-- Footer info-->
-        <div class="footer-info">
-            <div class="row">
-                <!-- About us -->
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div class="footer-item">
-                        <div class="main-title-2">
-                            <h4>Contact Us</h4>
+    <!-- Footer start -->
+    <footer class="main-footer clearfix">
+        <div class="container">
+            <!-- Footer info-->
+            <div class="footer-info">
+                <div class="row">
+                    <!-- About us -->
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <div class="main-title-2">
+                                <h4>Contact Us</h4>
+                            </div>
+                            <ul class="personal-info">
+                                <li>
+                                    <i class="fa fa-map-marker"></i>
+                                    Address: 44 New Design Street,
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    Phone: <a href="tel:+55-417-634-7071">+0477 85X6 552</a>
+                                </li>
+                            </ul>
                         </div>
-                        <ul class="personal-info">
-                            <li>
-                                <i class="fa fa-map-marker"></i>
-                                Address: 44 New Design Street,
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i>
-                                Phone: <a href="tel:+55-417-634-7071">+0477 85X6 552</a>
-                            </li>
-                        </ul>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                    <div class="footer-item">
-                        <div class="main-title-2">
-                            <h4>Siding</h4>
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <div class="main-title-2">
+                                <h4>Siding</h4>
+                            </div>
+                            <ul class="links">
+                                <li>
+                                    <a href="james_hardie_siding.html">James Hardie Siding</a>
+                                </li>
+                                <li>
+                                    <a href="stucco_removal.html">Stucco removal</a>
+                                </li>
+                                <li>
+                                    <a href="wood_shake_siding.html">Wood shake siding</a>
+                                </li>
+                            </ul>
                         </div>
-                        <ul class="links">
-                            <li>
-                                <a href="james_hardie_siding.html">James Hardie Siding</a>
-                            </li>
-                            <li>
-                                <a href="stucco_removal.html">Stucco removal</a>
-                            </li>
-                            <li>
-                                <a href="wood_shake_siding.html">Wood shake siding</a>
-                            </li>
-                        </ul>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                    <div class="footer-item">
-                        <div class="main-title-2">
-                            <h4>Roofing</h4>
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <div class="main-title-2">
+                                <h4>Roofing</h4>
+                            </div>
+                            <ul class="links">
+                                <li>
+                                    <a href="metal_roofing.html">Metal roofing </a>
+                                </li>
+                                <li>
+                                    <a href="copper_roofing.html">Copper roofing</a>
+                                </li>
+                                <li>
+                                    <a href="asphalt_shingles_roofing.html">Asphalt shingles roofing</a>
+                                </li>
+                            </ul>
                         </div>
-                        <ul class="links">
-                            <li>
-                                <a href="metal_roofing.html">Metal roofing </a>
-                            </li>
-                            <li>
-                                <a href="copper_roofing.html">Copper roofing</a>
-                            </li>
-                            <li>
-                                <a href="asphalt_shingles_roofing.html">Asphalt shingles roofing</a>
-                            </li>
-                        </ul>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                    <div class="footer-item">
-                        <div class="main-title-2">
-                            <h4>Windows</h4>
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <div class="main-title-2">
+                                <h4>Windows</h4>
+                            </div>
+                            <ul class="links">
+                                <li>
+                                    <a href="fiberglass_windows.html">Fiberglass windows</a>
+                                </li>
+                                <li>
+                                    <a href="patio_doors.html">Patio doors</a>
+                                </li>
+                            </ul>
                         </div>
-                        <ul class="links">
-                            <li>
-                                <a href="fiberglass_windows.html">Fiberglass windows</a>
-                            </li>
-                            <li>
-                                <a href="patio_doors.html">Patio doors</a>
-                            </li>
-                        </ul>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div class="footer-item newsletter">
-                        <div class="main-title-2">
-                            <h4>Newsletter</h4>
-                        </div>
-                        <div class="newsletter-inner">
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <form class="form-inline" action="#" method="GET">
-                                <input type="text" class="form-control" id="inlineFormInputName4" placeholder="Your Email">
-                                <button type="submit" class="btn btn-small"><i class="fa fa-paper-plane"></i></button>
-                            </form>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-item newsletter">
+                            <div class="main-title-2">
+                                <h4>Newsletter</h4>
+                            </div>
+                            <div class="newsletter-inner">
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum.</p>
+                                <form class="form-inline" action="#" method="GET">
+                                    <input type="text" class="form-control" id="inlineFormInputName4"
+                                        placeholder="Your Email">
+                                    <button type="submit" class="btn btn-small"><i
+                                            class="fa fa-paper-plane"></i></button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
-<!-- Footer end -->
+    </footer>
+    <!-- Footer end -->
     <!-- Copy right start -->
     <div class="copy-right">
         <div class="container">
