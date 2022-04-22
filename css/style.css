@@ -1157,14 +1157,16 @@ b, strong {
     background-color: rgba(0, 0, 0, 0.3);
     display: flex !important;
 }
-
-/*.banner-content {
+.pb-25{
+    padding-bottom: 25px;
+}
+.banner-content {
     align-self: center !important;
     max-width: 800px;
     margin: 0px auto;
     font-family: 'Roboto', sans-serif !important;;
     color: #fff;
-}*/
+}
 
 .banner .banner-slider-inner .like_h1 {
     color: #fff;
@@ -1589,6 +1591,12 @@ color: #FFF;
 }
 
 .main-title-3 h1 {
+    font-weight: 700;
+    margin: 0 0 15px;
+    font-size: 45px;
+    color:#fff;
+}
+.main-title-3 h2 {
     font-weight: 700;
     margin: 0 0 15px;
     font-size: 45px;
@@ -3182,7 +3190,8 @@ footer ul {
 }
 
 .services-box .detail {
-    margin-left: 60px;
+    margin-left: 20px;
+    width: 220px;
 }
 
 .services-box h3 {
@@ -3200,7 +3209,8 @@ footer ul {
 .services-box .number {
     font-size: 162px;
     line-height: 1;
-    color: #3a30300a;
+    color: #F4A460;
+    opacity: .6;
     display: inline-block;
     position: absolute;
     z-index: 0;
@@ -3515,42 +3525,42 @@ footer ul {
 }
 
 .hotel-box-3.hotel-photo-1{
-    background: url(../img/room/img-19.png);
+    background: url(../img/asphalt_about.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hotel-box-3.hotel-photo-2{
-    background: url(../img/room/img-22.png);
+    background: url(../img/metal_about.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hotel-box-3.hotel-photo-3{
-    background: url(../img/room/img-21.png);
+    background: url(../img/james_about.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hotel-box-3.hotel-photo-4{
-    background: url(../img/room/img-20.png);
+    background: url(../img/fiberglass_about.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hotel-box-3.hotel-photo-5{
-    background: url(../img/room/img-26.png);
+    background: url(../img/stucco_about.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hotel-box-3.hotel-photo-6{
-    background: url(../img/room/img-27.png);
+    background: url(../img/patio_about.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7962,6 +7972,7 @@ span.round-tab:hover i {
 
     .main-title-3 h1 {
         font-size: 40px;
+
     }
 
     .banner .banner-test-info {
@@ -8172,6 +8183,7 @@ span.round-tab:hover i {
 
     .main-title-3 {
         margin-bottom: 40px;
+
     }
 
     .content-area-3 {
